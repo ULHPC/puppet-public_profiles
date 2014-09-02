@@ -2,7 +2,7 @@
 
 # Public [ULHPC](http://hpc.uni.lu) Puppet profiles
 
-[![Puppet Forge](http://img.shields.io/puppetforge/v/ulhpc/public_profiles.svg)](https://forge.puppetlabs.com//ulhpc/public_profiles)
+[![Puppet Forge](http://img.shields.io/puppetforge/v/ULHPC/public_profiles.svg)](https://forge.puppetlabs.com//ulhpc/public_profiles)
 [![License](http://img.shields.io/:license-apache2.0-blue.svg)](LICENSE)
 ![Supported Platforms](http://img.shields.io/badge/platform-debian-lightgrey.svg)
 
