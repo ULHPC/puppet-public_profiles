@@ -13,6 +13,22 @@
     {
       "name": "puppetlabs-stdlib",
       "version_range": ">= 1.0.0"
+    },
+    {
+      "name": "saz/motd",
+      "version_requirement": "2.x"
+    },
+    {
+      "name": "saz/ssh",
+      "version_requirement": "2.x"
+    },
+    {
+      "name": "puppetlabs/ntp",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "zack/r10k",
+      "version_requirement": "2.x"
     }
   ],
   "operatingsystem_support": [
@@ -29,5 +45,13 @@
     "profiles",
     "ulhpc",
     "public"
+  ],
+  "classes": [
+    "profile::base",
+    "profile",
+    "profile::r10k"
+  ],
+  "definitions": [
+
   ]
 }
