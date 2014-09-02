@@ -1,6 +1,6 @@
 -*- mode: markdown; mode: auto-fill; fill-column: 80 -*-
 
-# Public_profiles Puppet Module 
+# Public [ULHPC](http://hpc.uni.lu) Puppet profiles
 
 [![Puppet Forge](http://img.shields.io/puppetforge/v/ulhpc/public_profiles.svg)](https://forge.puppetlabs.com//ulhpc/public_profiles)
 [![License](http://img.shields.io/:license-apache2.0-blue.svg)](LICENSE)
@@ -23,28 +23,10 @@ assumes that you have [RVM](https://rvm.io/) installed on your system.
 
 See `metadata.json`.
 
-## public_profiles class parameters
-
-* `$ensure` [Default: 'present']: Ensure ulhpc-public_profiles is present, absent etc. 
-
 ## Usage
 
-### class public_profiles
-
-     include 'public_profiles'
-
-
-## Documentation
-
-Please refer to the header of each manifest files to understand the usage of
-classes and definitions associated to the 'ulhpc-public_profiles' module.
- 
-Alternatively, generate automatically the documentation via
-[`puppet doc`](http://docs.puppetlabs.com/man/doc.html) as follows:  
-
-       $> rake doc   # Not yet implemented
-       
-For other information, please refer to the `metadata.json` file in this directory 
+You can see how this module is used in our
+[Public Puppet Infrastructure repository](https://github.com/ULHPC/puppet-public_infrastructure).  
 
 ## Librarian-Puppet / R10K Setup
 
@@ -61,7 +43,6 @@ available with [Librarian puppet](http://librarian-puppet.com/) or
 
 You can submit bug / issues / feature request using the 
 [ulhpc-public_profiles Tracker](https://github.com/ULHPC/puppet-public_profiles/issues). 
-
 
 ## Developments / Contributing to the code 
 
@@ -82,3 +63,18 @@ You should become familiar (if not yet) with Git. Consider these resources:
 * [Github:help](http://help.github.com/mac-set-up-git/)
 * [Git reference](http://gitref.org/)
 
+### r10k, Roles and Profiles
+
+* [r10k reference](https://github.com/adrienthebo/r10k) --
+  [Puppetfiles](https://github.com/adrienthebo/r10k/blob/master/doc/puppetfile.mkd)
+  and
+  [dynamic environment deployment](https://github.com/adrienthebo/r10k/blob/master/doc/dynamic-environments.mkd)
+  documentations
+* a [Puppet Tutorial](https://github.com/rnelson0/puppet-tutorial) bootstrapping
+  a similar configuration, including
+  [profiles](https://github.com/rnelson0/rnelson0-profile) and
+  [roles](https://github.com/rnelson0/rnelson0-role) -- see
+  [Puppet for Vsphere admins](http://rnelson0.com/puppet-for-vsphere-admins/)
+* __r10k tutorials__:
+  * [Gary Larizza blog](http://garylarizza.com/blog/2014/02/18/puppet-workflow-part-3/),  
+  * [Hunner](https://github.com/hunner/roles_and_profiles)
