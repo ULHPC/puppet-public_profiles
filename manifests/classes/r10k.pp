@@ -4,9 +4,9 @@
 # License::   Apache-2.0
 #
 # ------------------------------------------------------------------------------
-# = Profile: profile::r10k
+# = Profile: profiles::r10k
 #
-# Base profile
+# Basic profile to setup r10k
 #
 # === Parameters
 #
@@ -18,7 +18,7 @@
 #
 # === Examples
 #
-#  include profile::base
+#  include profiles::r10k
 #
 # == Warnings
 #
@@ -30,7 +30,7 @@
 #
 # [Remember: No empty lines between comments and class definition]
 #
-class profile::r10k inherits profile {
+class profiles::r10k inherits profiles {
 
     # TODO: from hiera...
     $puppet_env_dir = '/etc/puppet/environments'
@@ -58,6 +58,5 @@ class profile::r10k inherits profile {
         setting => 'manifestdir',
         value   => '/etc/puppet/environments/$environment/manifests',
     }
-    
     
 }

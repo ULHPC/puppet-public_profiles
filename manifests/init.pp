@@ -11,10 +11,6 @@
 # Resources: 
 # * https://github.com/rnelson0/rnelson0-profile
 
-
-class profile {
-    
-
-
+class profiles {
     
 }

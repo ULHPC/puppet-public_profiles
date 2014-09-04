@@ -4,7 +4,7 @@
 # License::   Apache-2.0
 #
 # ------------------------------------------------------------------------------
-# = Profile: profile::base
+# = Profile: profiles::base
 #
 # Base profile
 #
@@ -30,7 +30,8 @@
 #
 # [Remember: No empty lines between comments and class definition]
 #
-class profile::base inherits profile {
+
+class profiles::base inherits profiles {
 
     include ::motd
 
